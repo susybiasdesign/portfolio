@@ -1,0 +1,60 @@
+
+/* Clearfix */
+.row::before,
+.row::after {display: table; content: '';}
+.row::after {clear: both;}
+.col-3, .col-4, .col-6, .col-12 {float: left;}
+
+
+/* Mobile defaults */
+.col-3, .col-4, .col-6, .col-12 
+    {width: 100%;}
+
+
+/* Non-mobile, grid */
+@media only screen and (min-width: 700px) 
+ {.col-3 {width: 25%;}
+  .col-4 {width: 33.3%;}
+  .col-6 {width: 50%;}
+  .col-12 {width: 100%;}    
+  }
+
+
+
+/* Less than 500px */
+
+@media only screen and (max-width: 500px)
+    {
+    header ul {padding: 0px; margin: 0px;}
+    header li {width: 100%; max-width: 500px; padding-top: 2px;}
+
+
+    header img {
+               max-width: 80%;
+               padding-top:25px;
+               padding-bottom: 10px;
+               }
+    }
+
+
+
+#hero h1 {
+    font-size: 35px;
+    padding-bottom: 5px;
+    }
+
+#hero h3 {
+    font-size: 20px;
+    font-weight: 200;
+    }
+
+
+
+
+
+
+
+
+
+
+
