@@ -136,13 +136,8 @@
 
 
 
-
-
-
 		.left-about, .left-contact {padding: 0px;}
 		.right-about, .right-contact {padding-bottom: 25px;}
-
-
 
 		#about .row {margin: 0px 35px 0px 40px;}
 
@@ -150,6 +145,9 @@
 		.left-skills   {padding: 0px 0px 20px 40px;}
 		.middle-skills {padding: 0px 5px 20px 20px;}
 		.right-skills  {padding: 0px 0px 20px 40px;}
+
+
+		.photo 		{width: 50%;}
 
 		.left-contact  {padding-left: 10%; padding-right: 15%; padding-bottom: 15px;}
 
@@ -207,6 +205,8 @@
 		.middle-skills {padding: 0px;}
 		.right-skills {padding: 0px 0px 15px 0px;}
 
+
+
 	 	#contact .row {margin: 0px 20px 0px 20px; text-align: center;}
 	 	#contact ul li {padding: 5px 1px 5px 1px;}
 
@@ -215,5 +215,11 @@
 	    } /* Closing less than 500px */
 
 
+/* Less than 400px */
+
+	@media only screen and (max-width: 400px)
+	    {
+		.photo 		{width: 100%;}
+	}
 
 

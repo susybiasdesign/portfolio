@@ -171,14 +171,15 @@ header img {
 
 /* PROJECTS */
 
-
-.photobox {margin: -2px;}
+#projects ul {list-style: none;}
 
 .photo 		{
-			width:100%;
+			width:33.33%;
 			height: auto;
-  			text-align: center;
+			display: inline-block;
+			float: left;
 			}
+
 
 #project-top-border {
 			background-color: #a61e3a;
