@@ -27,24 +27,23 @@
 		.col-12 {width: 100%;}    
 
 		#hero {min-height: 500px;}
-		
 
 		.left-about {
-				padding-left: 15%;
 				padding-right: 50px;
 				padding-bottom: 20px;
+				padding-left: 15%;
+				}
+		
+		.left-contact {
+				padding-bottom: 20px;
+				padding-left: 25%;
 				}
 
-		.left-contact {
-				padding-left: 25%;
-				padding-right:0px;
-				padding-bottom: 20px;
-				}
 
 		.left-skills {
-				padding-left: 15%;
 				padding-right: 20px;
 				padding-bottom: 20px;
+				padding-left: 15%;
 				}
 
 		.middle-skills {
@@ -72,8 +71,9 @@
 
 	    #hero h1  {
 	          font-size: 45px;
-	          padding-left: 10%;
 	          padding-top: 60px;
+	          padding-left: 10%;
+
 	          }
 
 	    #hero h3  {
@@ -84,22 +84,21 @@
 
 
 		.left-about {
-				padding-left: 10%;
-				padding-right: 40px;
-				padding-bottom: 20px;
-				}
+					padding-right: 40px;
+					padding-bottom: 20px;
+					padding-left: 10%;
+					}
 
 		.left-skills   {padding: 5px 0px 20px 10%;}
 		.middle-skills {padding: 5px 10px 20px 20px;}
 		.right-skills  {padding: 5px 0px 20px 40px;}
 	
 
-		.left-contact
-			{
-			padding-left: 15%;
-			padding-right: 5%;
-			padding-bottom: 20px;
-			}
+		.left-contact {
+					padding-right: 5%;
+					padding-bottom: 20px;
+					padding-left: 15%;
+					}
 
 
 		}/* End between 700 and 1000 */
@@ -125,9 +124,9 @@
 
 	    #hero h1  {
 	          font-size: 40px;
-	          padding-left: 40px;
-	          padding-bottom: 5px;
 	          padding-top:50px;
+	          padding-bottom: 5px;
+	          padding-left: 40px;
 	          }
 
 	    #hero h3  {
@@ -138,19 +137,21 @@
 
 
 		.left-about, .left-contact {padding: 0px;}
-		.right-about, .right-contact {padding-bottom: 25px;}
+		.right-about, .right-contact {padding-bottom: 25px; padding-top: 10px;}
 
 		#about .row {margin: 0px 35px 0px 40px;}
-
 
 		.left-skills   {padding: 0px 0px 20px 40px;}
 		.middle-skills {padding: 0px 5px 20px 20px;}
 		.right-skills  {padding: 0px 0px 20px 40px;}
 
-
 		.photo 		{width: 50%;}
 
-		.left-contact  {padding-left: 10%; padding-right: 15%; padding-bottom: 15px;}
+		.left-contact  {
+					padding-right: 15%; 
+					padding-bottom: 15px;
+					padding-left: 10%;
+					}
 
 
 	    } /* Closing between 550 and 700px */
@@ -167,14 +168,14 @@
 	    .col-3 {width: 100%;}
 	   	.col-4 {width: 100%;}
 
+
+		/* This is the logo */
 		header img {width: 275px;}
 
 	    #about .row {margin: 0px 20px 0px 20px;}
 
 	    .left-about, .left-contact {padding: 0px 10px 0px 0px; width: 100%;}
 		.right-about, .right-contact {padding: 10px 0px 20px 0px; width: 100%;}
-
-
 
 
 	    #nav ul {padding: 0px; margin: 0px;}
@@ -220,7 +221,7 @@
 
 	@media only screen and (max-width: 400px)
 	    {
-		.photo 		{width: 100%;}
-	}
+		.photo 	{width: 100%;}
+		}
 
 
