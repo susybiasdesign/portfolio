@@ -114,12 +114,11 @@ header img {
 /* HERO */
 
 #hero 	{
-	    width: 100%;
-	    
+	    width: 100%;    
 	    background-image: url('../images/susybiashero3.png');
   		background-size: cover;
-
 		}
+
 
 #hero h1 {
 		font-size: 50px;
@@ -141,8 +140,7 @@ header img {
 #about 		{
 			
 			background-color: #e1dfd9;
-			padding-left: auto;
-			padding-right: auto;
+
 			}
 
 #about h2  	{

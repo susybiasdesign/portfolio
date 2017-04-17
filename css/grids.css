@@ -1,15 +1,15 @@
 
-
 /* Clearfix defaults */
-		.row::before,
-		.row::after {display: table; content: '';}
-		.row::after {clear: both;}
-		.col-3, .col-4, .col-6, .col-12 {float: left;}
+    .row::before,
+    .row::after {display: table; content: '';}
+    .row::after {clear: both;}
+    .col-3, .col-4, .col-6, .col-12 {float: left;}
 
 
 /* Mobile defaults */
-		.col-3, .col-4, .col-6, .col-12 
-		{width: 100%;}
+    .col-3, .col-4, .col-6, .col-12 
+        {width: 100%;}
+
 
 
 /* *******************  GRIDS AND MEDIA QUERIES  **************************** */
@@ -18,60 +18,77 @@
 /* Over 1000px */
 
 @media only screen and (min-width: 1000px) 
+	{
 
-		{
+
 		.col-3  {width: 25%;}
 		.col-4  {width: 33.3%;}
 		.col-6  {width: 50%;}
 		.col-12 {width: 100%;}    
+
+		#hero {min-height: 500px;}
 		
 
-		#hero   {min-height: 500px;}   
-
-		.left-about {padding-left: 15%; padding-right: 50px; padding-bottom: 20px;}
-		.left-contact {padding-left: 25%; padding-bottom: 20px;}
-
-		.left-skills {padding-left: 15%; padding-right: 20px; padding-bottom: 20px;}
-		.middle-skills {padding-right: 20px;}
-
-		}
-
-/* Between 700 and 1000px */
-
-@media only screen and (max-width: 1000px) and (min-width: 700px)
-	  
-	    { 
-	    .col-3  {width: 25%;}
-		.col-4  {width: 33.3%;}
-		.col-6  {width: 50%;}
-		.col-12 {width: 100%;}    
-
-		  
-
-		#hero 	{min-height: 300px;}   
-
-		#hero h1 {
-				font-size: 900px;
-				padding-bottom: 12px;
-				padding-left: 16%;
-				padding-top: 50px;
-				}
-
-		#hero h3 {
-				font-size: 25px;
-				font-weight: 200;
-				padding-left: 16%;
-				}
-
 		.left-about {
-				padding-left: 10%;
+				padding-left: 15%;
 				padding-right: 50px;
 				padding-bottom: 20px;
 				}
 
-		.left-skills   {padding-left: 10%;}
-		.middle-skills {padding: 0px 10px 20px 20px;}
-		.right-skills  {padding: 0px 0px 20px 40px;}
+		.left-contact {
+				padding-left: 25%;
+				padding-bottom: 20px;
+				}
+
+		.left-skills {
+				padding-left: 15%;
+				padding-right: 20px;
+				padding-bottom: 20px;
+				}
+
+		.middle-skills {
+				padding-right: 20px;
+				}
+
+
+	}	/* End over 1000px */		
+		
+
+
+/* Between 700 and 1000px */
+
+@media only screen and (max-width: 1000px) 
+	  
+	    { 
+	    .col-3  {width: 25%;}
+		.col-4  {width: 40%;}
+		.col-6  {width: 50%;}
+		.col-12 {width: 100%;}    
+
+
+		#hero {min-height: 350px;}
+
+	    #hero h1  {
+	          font-size: 45px;
+	          padding-left: 10%;
+	          }
+
+	    #hero h3  {
+	          font-size: 24px;
+	          padding-left: 10%;
+	          }
+
+
+
+		.left-about {
+				padding-left: 10%;
+				padding-right: 40px;
+				padding-bottom: 20px;
+				}
+
+		.left-skills   {padding: 5px 0px 20px 10%;}
+		.middle-skills {padding: 5px 10px 20px 20px;}
+		.right-skills  {padding: 5px 0px 20px 40px;}
 	
 
 		.left-contact
@@ -82,8 +99,6 @@
 			}
 
 
-
-
 		}/* End between 700 and 1000 */
 
 
@@ -91,27 +106,35 @@
 
 /* Between 580 and 700px */
 
-@media only screen and (max-width: 699px) and (min-width: 579px)
+@media only screen and (max-width: 699px)
 	    
 	    {
 		
-	   .col-3 {width: 25%;}
-	   .col-4 {width: 33.3%;}
-	   .left-about, .right-about {width: 100%;}
+		.col-3 {width: 25%;}
+		.col-4 {width: 33.3%;}
+
+		/* This is the logo */
+		header img {width: 300px;}
 
 
-		#hero h1 	{
-					font-size: 40px;
-					padding-bottom: 12px;
-					padding-left: 40px;
-					padding-top: 50px;
-					}
+		#hero {min-height: 250px;}
 
-		#hero h3 	{
-					font-size: 22px;
-					font-weight: 200;
-					padding-left: 40px;
-					}
+	    #hero h1  {
+	          font-size: 40px;
+	          padding-left: 40px;
+	          padding-bottom: 5px;
+	          padding-top:50px;
+	          }
+
+	    #hero h3  {
+	          font-size: 23px;
+	          padding-left: 40px;
+	          }
+
+
+
+		.left-about, .right-about {width: 100%;}
+
 
 		.left-about, .left-contact {padding: 0px;}
 		.right-about, .right-contact {padding-bottom: 25px;}
@@ -136,13 +159,15 @@
 
 /* Less than 550px */
 
-	@media only screen and (max-width: 580px)
+	@media only screen and (max-width: 550px)
 	    {
 
 	    .col-3 {width: 100%;}
 	   	.col-4 {width: 100%;}
 
-	    #about .row {margin: 0px 35px 0px 40px;}
+		header img {width: 275px;}
+
+	    #about .row {margin: 0px 20px 0px 20px;}
 
 	    .left-about, .left-contact {padding: 0px 10px 0px 0px; width: 100%;}
 		.right-about, .right-contact {padding: 10px 0px 20px 0px; width: 100%;}
@@ -151,36 +176,30 @@
 
 
 	    #nav ul {padding: 0px; margin: 0px;}
-	    #nav li {padding-top: 2px;}
-	    #nav li a {font-size: 11px; padding: 0px 12px;}
+	    #nav li {padding: 2px 0px 0px 0px; margin: 0px;}
+	    #nav li a {width: 25%; font-size: 11px; margin: 0px; padding: 0px 12px;}
 
 		/* This is the logo */
-		header img {
-		  		 max-width: 250px;
-		   		 padding-top: 25px;
-				 padding-bottom: 10px;
-		  		 }
+	
 
+		h2 	{padding: 15px 0px 10px 0px;}
 
-		h2 	{padding: 25px 0px 20px 0px;}
-
-		#hero {min-height: 100px; width: 100%;}   	
+		#hero {min-height: 200px; width: 100%;}   	
 		        
 		#hero h1 {
-		        font-size: 40px;
-		        padding-bottom: 8px;
+		        font-size: 38px;
 		        padding-top: 40px;
-		        padding-left: 40px;
+		        padding-left: 20px;
 		        }
 
 		#hero h3 {
-		        font-size: 20px;
-		        font-weight: 200;
-		        padding-left: 40px;
-		        padding-bottom: 3px;
+		        font-size: 18px;
+		        padding-left: 20px;
 		        }
 
 		#skills ul {text-align: center;}
+		#skills li {padding-bottom: 7px;}
+	
 		.left-skills {padding: 10px 0px 0px 0px;}
 		.middle-skills {padding: 0px;}
 		.right-skills {padding: 0px 0px 15px 0px;}
