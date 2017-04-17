@@ -57,11 +57,12 @@
 
 /* Between 700 and 1000px */
 
-@media only screen and (max-width: 1000px) 
+@media only screen and (max-width: 999px) 
 	  
 	    { 
 	    .col-3  {width: 25%;}
-		.col-4  {width: 40%;}
+		.col-4  {width: 33.3%;}
+		#about .col-4 {width: 40%;}
 		.col-6  {width: 50%;}
 		.col-12 {width: 100%;}    
 
@@ -71,6 +72,7 @@
 	    #hero h1  {
 	          font-size: 45px;
 	          padding-left: 10%;
+	          padding-top: 60px;
 	          }
 
 	    #hero h3  {
@@ -104,7 +106,7 @@
 
 
 
-/* Between 580 and 700px */
+/* Between 550 and 700px */
 
 @media only screen and (max-width: 699px)
 	    
@@ -112,6 +114,7 @@
 		
 		.col-3 {width: 25%;}
 		.col-4 {width: 33.3%;}
+		#about .col-4 {width: 100%;}
 
 		/* This is the logo */
 		header img {width: 300px;}
@@ -133,7 +136,7 @@
 
 
 
-		.left-about, .right-about {width: 100%;}
+
 
 
 		.left-about, .left-contact {padding: 0px;}
