@@ -8,11 +8,21 @@
 
     <title>Susy Bias Design</title>
 
+<!-- CSS and Fonts -->
+
     <link href="css/normalize.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,600" rel="stylesheet"> 
 
     <link href="css/portfolio.css" rel="stylesheet" type="text/css">
     <link href="css/grids.css" rel="stylesheet" type="text/css">
+
+
+<!-- JavaScript and jQuery -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script type="text/javascript" src="js/portfolio.js"></script>
+
 
 
 
@@ -169,11 +179,36 @@
     <ul>
 
           <li>
-            <img class="photo" src="images/project-bestfriends.png" alt="portfolio-photo"> 
+               <img id="modalButton" class="photo" src="images/project-bestfriends.png" alt="portfolio-photo">
           </li>
+
+
+          <!-- ********************** MODAL FOR PROJECT ONE ********************** -->
+
+          <!-- OPENS MODAL -->
+
+              <div id="modalOpen" class="modal">
+
+                    <!-- MODAL POPUP CONTENT -->
+                    <div class="modal-content">
+                      <span class="close">&times;</span>
+                      <img src="images/modal-kitten-manual.png">
+                      <h3>SF SPCA Foster Kitten Manual</h3>
+                      <p>A brief description of this project, like that it’s a 36-page manual for the SF SPCA Kitten Foster Care Program. I might note that I did the design and layout and the final deliverable was in print and digital pdf. And maybe say the timeline was tight.</p>
+                    </div>
+
+              </div> <!-- CLOSING MODAL DIV-->
+
+
+
+          <li>
+             <img id="modalButton2" class="photo" src="images/project-kittenmanual.png" alt="portfolio-photo"> 
+          </li>
+
+ 
       
           <li>
-            <img class="photo" src="images/project-kittenmanual.png" alt="portfolio-photo"> 
+            <img id="modalButton2" class="photo" src="images/project-kittenmanual.png" alt="portfolio-photo"> 
           </li>
 
           <li>

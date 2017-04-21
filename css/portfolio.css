@@ -44,6 +44,13 @@ h3		{
 		text-transform: uppercase;
 		}
 
+.modal-content h3 {
+		color: #a61e3a;
+		padding-top: 25px;
+		padding-bottom: 15px;
+		text-align: center;
+		}
+
 
 h4		{
 		color: #a61e3a;
@@ -174,10 +181,15 @@ header img {
 #projects ul {list-style: none;}
 
 .photo 		{
-			width:33.33%;
+			background-color: #a61e3a;
+			width: 33.33%;
 			height: auto;
 			display: inline-block;
 			float: left;
+			}
+
+.photo:hover {filter: grayscale(100%);
+
 			}
 
 
@@ -220,36 +232,36 @@ header img {
 #contact ul img {height: 25px; width: auto; padding-right: 10px;}
 
 
-
+/* Contact form fields */
 
 input, textarea {
-    width: 100%;
-    background: #c0bab5;
-    font-size: 12px;
-    line-height: 150%;
-    border: none;
-    padding: 5px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    resize: none;
-}
+			    width: 100%;
+			    background: #c0bab5;
+			    font-size: 12px;
+			    line-height: 150%;
+			    border: none;
+			    padding: 5px;
+			    margin-top: 5px;
+			    margin-bottom: 5px;
+			    resize: none;
+				}
 
 
 input[type=submit] {
-    background-color: #a61e3a;
-    color: #ffffff;
-    font-size: 13px;
-    padding: 7px 0px;
-    width: 30%;
-    border: none;
-    margin: 10px 0px 20px 0px;
-    cursor: pointer;
-}
+			    background-color: #a61e3a;
+			    color: #ffffff;
+			    font-size: 13px;
+			    padding: 7px 0px;
+			    width: 30%;
+			    border: none;
+			    margin: 10px 0px 20px 0px;
+			    cursor: pointer;
+				}
 
-input[type=submit]:hover {
-    background-color: #53413c;
-
-}
+input[type=submit]:hover
+				{
+   				background-color: #53413c;
+				}
 
 
 
@@ -278,4 +290,69 @@ footer p 	{
 			padding-top: 8px;
 			}
 
-		
+
+
+/********************** MODAL **********************/
+/********************** MODAL **********************/
+/********************** MODAL **********************/
+/********************** MODAL **********************/
+
+
+/* The Modal (This is the mask background behind the popup.) */
+
+.modal 		{
+		    display: none; /* Hidden by default */
+		    position: fixed; /* Stay in place */
+		    z-index: 1; /* Sit on top */
+		    padding-top: 100px; /* Location of the box */
+		    left: 0;
+		    top: 0;
+		    width: 100%; /* Full width */
+		    height: 100%; /* Full height */
+		    overflow: auto; /* Enable scroll if needed */
+		    background-color: #000000; /* Fallback color */
+		    background-color: rgba(0,0,0,0.7); /* Black w/ opacity */
+			}
+
+
+/* This is the box that pops up showing the project details. */
+
+.modal-content {
+		    background-color: #e1dfd9;
+		    margin: auto;
+		    padding: 40px;
+		    width: 80%;
+		    max-width: 850px;
+			}
+
+
+#modal-content { /* for styling a specific modal window?? */ }
+
+
+
+/* This is for the image in the project details popup window. */
+
+.modal-content img {
+			max-width: 80%;
+			display: block;
+			margin-right: auto;
+			margin-left: auto;}
+
+
+
+/* CLOSE BUTTON  */
+
+.close 		{
+		    color: #53413c;
+		    float: right;
+		    font-size: 25px;
+			}
+
+.close:hover,
+.close:focus {
+			color: #a61e3a;
+			text-decoration: none;
+			cursor: pointer;
+			}	
+
+/* End close button  */
