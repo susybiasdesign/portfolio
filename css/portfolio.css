@@ -44,12 +44,6 @@ h3		{
 		text-transform: uppercase;
 		}
 
-.modal-content h3 {
-		color: #a61e3a;
-		padding-top: 25px;
-		padding-bottom: 15px;
-		text-align: center;
-		}
 
 
 h4		{
@@ -209,6 +203,7 @@ header img {
 
 
 
+
 /* CONTACT */
 
 
@@ -298,13 +293,28 @@ footer p 	{
 /********************** MODAL **********************/
 
 
+/* Modal Styles */
+
+
+.modal-content h3 {
+		color: #a61e3a;
+		font-size: 17px;
+		padding-top: 35px;
+		padding-bottom: 15px;
+		text-align: center;
+		}
+
+
+.modal-content a {color:#a61e3a; text-decoration: none;}
+
+
 /* The Modal (This is the mask background behind the popup.) */
 
 .modal 		{
 		    display: none; /* Hidden by default */
 		    position: fixed; /* Stay in place */
 		    z-index: 1; /* Sit on top */
-		    padding-top: 100px; /* Location of the box */
+		    padding-top: 20px; /* Location of the box */
 		    left: 0;
 		    top: 0;
 		    width: 100%; /* Full width */
@@ -322,22 +332,17 @@ footer p 	{
 		    margin: auto;
 		    padding: 40px;
 		    width: 80%;
-		    max-width: 850px;
 			}
-
-
-#modal-content { /* for styling a specific modal window?? */ }
-
 
 
 /* This is for the image in the project details popup window. */
 
 .modal-content img {
 			max-width: 80%;
+			max-height: 100%;
 			display: block;
 			margin-right: auto;
 			margin-left: auto;}
-
 
 
 /* CLOSE BUTTON  */
@@ -345,7 +350,9 @@ footer p 	{
 .close 		{
 		    color: #53413c;
 		    float: right;
-		    font-size: 25px;
+		    font-size: 28px;
+		    margin-top: -20px;
+		    margin-right: -10px;
 			}
 
 .close:hover,
