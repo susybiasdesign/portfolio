@@ -47,10 +47,5 @@ window.onclick = function(event) {
 
 
 
-
-
-
-
-
 //  This ends all the functions
 });
