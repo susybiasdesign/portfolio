@@ -180,7 +180,7 @@ header img {
 
 #projects ul {list-style: none;}
 
-.photo 		{
+.photo, .button 		{
 			background-color: #a61e3a;
 			width: 33.33%;
 			height: auto;
