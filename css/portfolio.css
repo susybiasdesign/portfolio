@@ -231,11 +231,12 @@ header img {
 
 input, textarea {
 			    width: 100%;
-			    background: #c0bab5;
-			    font-size: 12px;
+			    background: #cbc6c1;
+			    color: #21130e;
+			    font-size: 13px;
 			    line-height: 150%;
 			    border: none;
-			    padding: 5px;
+			    padding: 4px 5px;
 			    margin-top: 5px;
 			    margin-bottom: 5px;
 			    resize: none;
