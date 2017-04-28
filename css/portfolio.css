@@ -108,7 +108,7 @@ header img {
 		}
 
 #nav li:hover {
-		background-color: #53413c;
+		background-color: #473f40;
 		}
 
 		
@@ -155,7 +155,7 @@ header img {
 
 #skills 	{ 
 			
-			background-color: #53413c;
+			background-color: #473f40;
 
 			}
 
@@ -172,6 +172,8 @@ header img {
 
 /* PROJECTS */
 
+#projects {background-color: #ce183e;}
+
 #projects ul {list-style: none;}
 
 .photo, .button 		{
@@ -182,8 +184,9 @@ header img {
 			float: left;
 			}
 
-.photo:hover {filter: grayscale(100%);
-
+.photo:hover {
+			filter: grayscale(80%);
+			opacity: 0.5;
 			}
 
 
@@ -197,8 +200,8 @@ header img {
 
 #project-bottom-border {
 			height: 20px;
-			background-color: #53413c;
-			margin-top: -2px;
+			background-color: #473f40;
+			margin-top: 0px;
 			}
 
 
@@ -223,7 +226,7 @@ header img {
 
 #contact ul {list-style: none;}
 #contact ul li {display: inline-block;}
-#contact a {color:#53413c; text-decoration: none;}
+#contact a {color:#473f40; text-decoration: none;}
 #contact ul img {height: 25px; width: auto; padding-right: 10px;}
 
 
@@ -256,7 +259,7 @@ input[type=submit] {
 
 input[type=submit]:hover
 				{
-   				background-color: #53413c;
+   				background-color: #473f40;
 				}
 
 
@@ -266,7 +269,7 @@ input[type=submit]:hover
 
 footer		{
 			min-height: 65px;
-			background-color: #53413c;
+			background-color: #473f40;
 			}
 
 
@@ -349,7 +352,7 @@ footer p 	{
 /* CLOSE BUTTON  */
 
 .close 		{
-		    color: #53413c;
+		    color: #473f40;
 		    float: right;
 		    font-size: 28px;
 		    margin-top: -20px;
