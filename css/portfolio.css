@@ -227,7 +227,9 @@ header img {
 #contact ul {list-style: none;}
 #contact ul li {display: inline-block;}
 #contact a {color:#473f40; text-decoration: none;}
+#contact a:hover {opacity: .8;}
 #contact ul img {height: 25px; width: auto; padding-right: 10px;}
+#contact ul img:hover {opacity: .8;}
 
 
 /* Contact form fields */
