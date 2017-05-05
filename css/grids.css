@@ -54,6 +54,9 @@
 				padding-right: 20px;
 				}
 
+		.prev, .next {top: 35%;}
+			
+
 
 	}	/* End over 1000px */		
 		
@@ -108,6 +111,8 @@
 					padding-left: 15%;
 					}
 
+		.prev, .next {top: 20%;}
+
 
 		}/* End between 700 and 1000 */
 
@@ -160,6 +165,9 @@
 					padding-bottom: 15px;
 					padding-left: 10%;
 					}
+
+		.prev, .next {top: 20%;}
+
 
 
 	    } /* Closing between 550 and 700px */
@@ -220,6 +228,8 @@
 	 	#contact .row {margin: 0px 20px 0px 20px; text-align: center;}
 	 	#contact ul li {padding: 5px 1px 5px 1px;}
 
+	 	.prev, .next {top: 25%;}
+
 
 
 	    } /* Closing less than 500px */
@@ -230,6 +240,9 @@
 	@media only screen and (max-width: 400px)
 	    {
 		.photo 	{width: 100%;}
+		.prev {left: 10px;}
+		.next {right: 10px;}
+
 		}
 
 

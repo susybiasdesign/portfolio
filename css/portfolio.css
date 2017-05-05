@@ -173,32 +173,32 @@ header img {
 /* PROJECTS */
 
 #projects {background-color: #ce183e;}
-
 #projects ul {list-style: none;}
 
-.photo, .button 		{
-			background-color: #a61e3a;
+.photo, .button {	
 			width: 33.33%;
 			height: auto;
 			display: inline-block;
 			float: left;
 			}
+.red 		{background-color: #ce183e;}
 
 .photo:hover {
 			filter: grayscale(80%);
+			filter: alpha(opacity=80);
 			opacity: 0.5;
 			}
 
 
-#project-top-border {
+.project-top-border {
 			background-color: #a61e3a;
 			}
 
-#project-top-border h2 {
+.project-top-border h2 {
 			padding: 20px 0px 20px 0px;
 			}
 
-#project-bottom-border {
+.project-bottom-border {
 			height: 20px;
 			background-color: #473f40;
 			margin-top: 0px;
@@ -218,7 +218,7 @@ header img {
 			color: #a61e3a;
 			}
 
-#contact h4 { margin: 5px 0px 5px 0px; }
+#contact h4 { margin: 5px 0px 5px 0px;}
 #web {padding: 18px 0px 5px 0px;}
 
 
@@ -299,20 +299,6 @@ footer p 	{
 /********************** MODAL **********************/
 
 
-/* Modal Styles */
-
-
-.modal-content h3 {
-		color: #a61e3a;
-		font-size: 17px;
-		padding-top: 35px;
-		padding-bottom: 15px;
-		text-align: center;
-		}
-
-
-.modal-content a {color:#a61e3a; text-decoration: none;}
-
 
 /* The Modal (This is the mask background behind the popup.) */
 
@@ -329,6 +315,10 @@ footer p 	{
 		    background-color: #000000; /* Fallback color */
 		    background-color: rgba(0,0,0,0.7); /* Black w/ opacity */
 			}
+
+
+
+
 
 
 /* This is the box that pops up showing the project details. */
@@ -351,14 +341,26 @@ footer p 	{
 			margin-left: auto;}
 
 
+.modal-content h3 {
+		color: #a61e3a;
+		font-size: 17px;
+		padding-top: 35px;
+		padding-bottom: 15px;
+		text-align: center;
+		}
+
+
+.modal-content a {color:#a61e3a; text-decoration: none;}
+
+
 /* CLOSE BUTTON  */
 
 .close 		{
 		    color: #473f40;
 		    float: right;
 		    font-size: 28px;
-		    margin-top: -20px;
-		    margin-right: -10px;
+		    margin-top: 20px;
+		    margin-right: 10%;
 			}
 
 .close:hover,
@@ -368,4 +370,22 @@ footer p 	{
 			cursor: pointer;
 			}	
 
+
 /* End close button  */
+
+
+.prev, .next {
+	color: #473f40 !important;
+ 	cursor: pointer;
+	position: absolute;
+	font-size: 18px;
+	font-weight: 100;
+	transition: 0.6s ease;
+	user-select: none;
+	-webkit-user-select: none;}
+
+/* Position the "next button" to the right */
+.next {right: 10%;}
+
+
+
