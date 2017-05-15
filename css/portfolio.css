@@ -9,6 +9,9 @@ body 	{
 		}
 
 
+
+
+
 h1, h2, h3, h4, h5, p {margin: 0px;}
 
 
@@ -139,11 +142,10 @@ header img {
 
 /* ABOUT */
 
-#about 		{
-			
+#about 		{		
 			background-color: #e1dfd9;
-
 			}
+
 
 #about h2  	{
 			color: #a61e3a;
@@ -151,13 +153,10 @@ header img {
 
 
 
-
 /* SKILLS */
 
-#skills 	{ 
-			
+#skills 	{
 			background-color: #473f40;
-
 			}
 
 
