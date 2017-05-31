@@ -1,4 +1,12 @@
+//sticky nav
 
+
+    $(window).load(function(){
+      $("#sticky").sticky({ topSpacing: 0 });
+    });
+
+
+//modals
 function openModal() {
   document.getElementById('myModal').style.display = "block";
 }
