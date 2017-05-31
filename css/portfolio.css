@@ -85,6 +85,12 @@ header img {
 
 #sticky {z-index: 100;}
 
+.anchor {
+		display: block;
+		height: 122px; /*same height as header*/
+		margin-top: -121px; /*same height as header*/
+		visibility: hidden;
+		}
 
 /* NAV */
 
@@ -118,7 +124,29 @@ header img {
 		background-color: #473f40;
 		}
 
-		
+
+/* RED ANGLE
+
+			.angle-red 
+					{
+					content: '';
+					position: absolute;
+
+					top: 96px;
+					width: 100%;
+					height: 45px;
+					background: #a61e3a;
+
+					-webkit-transform: skewY(3deg);
+					-moz-transform: skewY(1deg);
+					-ms-transform: skewY(1deg);
+					-o-transform: skewY(1deg);
+					transform: skewY(1deg);
+					-webkit-backface-visibility: hidden;
+					 }		
+ */
+
+
 /* HERO */
 
 #hero 	{
@@ -126,6 +154,7 @@ header img {
 	    background-image: url('../images/susybiashero3.png');
 	    background-color: #473f40;
   		background-size: cover;
+  		margin-top: -1px;
 		}
 
 
@@ -192,9 +221,7 @@ header img {
 		float: left;
 		}
 
-.red 	{
-		background-color: #ce183e;
-		}
+
 
 .photo:hover
 		{
