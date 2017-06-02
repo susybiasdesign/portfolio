@@ -8,6 +8,10 @@ body 	{
 		position: relative;
 		}
 
+main, #angle-div {position: absolute; z-index: -2;}
+#sticky {z-index: 500;}
+footer {position: relative; width: 100%; z-index: 1;}
+
 
 h1, h2, h3, h4, h5, p {margin: 0px;}
 
@@ -83,7 +87,7 @@ header img {
 		padding-bottom: 10px;
 		}
 
-#sticky {z-index: 100;}
+
 
 .anchor {
 		display: block;
@@ -125,27 +129,31 @@ header img {
 		}
 
 
-/* RED ANGLE
+		 /* RED ANGLE
 
-			.angle-red 
-					{
-					content: '';
-					position: absolute;
+			 #angle-div .angle-wrapper {
+				 	display:block;
+				 	float:left;
+				 	margin:50px auto 170px;
+				 	width:100%;
+				 	padding:0 5%;
+				 	transform:skew(0deg,-2deg);
+				 	-ms-transform:skew(0deg,-2deg);
+				 	-webkit-transform:skew(0deg,-2deg); 
+				 	}
 
-					top: 96px;
-					width: 100%;
-					height: 45px;
-					background: #a61e3a;
-
-					-webkit-transform: skewY(3deg);
-					-moz-transform: skewY(1deg);
-					-ms-transform: skewY(1deg);
-					-o-transform: skewY(1deg);
-					transform: skewY(1deg);
-					-webkit-backface-visibility: hidden;
-					 }		
- */
-
+			 #angle-div {
+				 	z-index:-1;
+				 	display:block;
+				 	float:left;
+				 	margin-top:-180px;
+				 	width:100%;
+				 	background:#a61e3a;
+				 	transform:skew(0deg,2deg);
+				 	-ms-transform:skew(0deg,2deg); 
+				 	-webkit-transform:skew(0deg,2deg);
+				 	}
+			*/
 
 /* HERO */
 
@@ -357,7 +365,7 @@ footer p 	{
 .modal 		{
 		    display: none; /* Hidden by default */
 		    position: fixed; /* Stay in place */
-		    z-index: 1; /* Sit on top */
+		    z-index: 10; /* Sit on top */
 		    padding-top: 20px; /* Location of the box */
 		    left: 0;
 		    top: 0;
@@ -449,7 +457,8 @@ footer p 	{
 		text-decoration: none;
 		cursor: pointer;
 		}	
-
+.prev:visited, .next:visited {
+	color: #473f40;}
 
 /* Position the "next button" to the right */
 .next {right: 10%;}

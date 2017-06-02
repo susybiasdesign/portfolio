@@ -40,7 +40,7 @@
 		
 		.left-contact {
 				padding-bottom: 20px;
-				padding-left: 25%;
+				padding-left: 23%;
 				}
 
 
@@ -114,6 +114,8 @@
 		.prev, .next {top: 20%;}
 
 
+
+
 		}/* End between 700 and 1000 */
 
 
@@ -131,6 +133,9 @@
 
 		/* This is the logo */
 		header img {width: 300px;}
+
+
+		#angle-div {margin-top:-190px;}
 
 
 		#hero {min-height: 250px;}
@@ -187,6 +192,8 @@
 
 		/* This is the logo */
 		header img {width: 275px;}
+
+		#angle-div {margin-top:-200px;}
 
 	    #about .row {margin: 0px 20px 0px 20px;}
 
