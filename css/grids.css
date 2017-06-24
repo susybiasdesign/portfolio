@@ -155,7 +155,7 @@
 
 
 		.left-about, .left-contact {padding: 0px;}
-		.right-about, .right-contact {padding-bottom: 25px; padding-top: 10px;}
+		.right-about {padding-bottom: 25px; padding-top: 10px;}
 
 		#about .row {margin: 0px 35px 0px 40px;}
 
@@ -235,6 +235,7 @@
 	 	#contact .row {margin: 0px 20px 0px 20px; text-align: center;}
 	 	#contact ul li {padding: 5px 1px 5px 1px;}
 
+	.right-contact {padding:20px 0;}
 	 	.prev, .next {top: 25%;}
 
 
