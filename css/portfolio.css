@@ -471,4 +471,28 @@ footer p 	{
 .next {right: 10%;}
 
 
+/* 404 PAGE */
 
+/* ABOUT */
+
+#page-not-found 	
+		{		
+		background-color: #e1dfd9;
+		width: 100%;
+  		background-size: cover;
+  		height: 600px;  
+		}
+
+#page-not-found h2 
+		{
+		color: #a61e3a;
+		}
+
+#page-not-found p 
+		{
+		text-align: center;
+		}
+
+#footer404 {
+	margin-top: 600px;
+}
