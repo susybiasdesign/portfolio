@@ -32,7 +32,7 @@ h2		{
 		color: #ffffff;
 		font-family: 'Work Sans';
 		font-weight: 100;
-		font-size: 25px;
+		font-size: 24px;
 		line-height: 90%;
 		letter-spacing: 1px;
 		padding: 25px 0px 20px 0px;
@@ -63,6 +63,8 @@ p		{
 		font-size: 14px;
 		line-height: 175%;
 		}
+
+
 
 
 
@@ -182,6 +184,33 @@ header img {
 		}
 
 
+#contact-top {
+			    background-color: #a61e3a;
+			    color: #ffffff;
+			    font-size: 15px;
+			    font-weight: normal;
+			    padding: 7px 0px;
+			    width: 150px;
+			    border: none;
+			    border-radius: 2px;
+			    margin-left: 16%;
+			    margin-top: 50px;
+			    cursor: pointer;
+			    text-align: center;
+				}
+
+#contact-top:hover
+				{
+   				background-color: #473f40;
+				}
+
+#contact-top a
+				{
+   				color: #ffffff;
+   				text-decoration: none;
+				}
+
+
 
 /* ABOUT */
 
@@ -218,8 +247,9 @@ header img {
 
 /* PROJECTS */
 
-#projects {background-color: #ce183e;}
-#projects ul {list-style: none;}
+#projects {background-color: #a61e3a;}
+#projects ul {list-style: none; background-color: #ce183e;}
+#projects h2 {font-size: 23px; padding: 12px 0px 12px 0px;}
 
 .photo, .button 
 		{	
@@ -230,7 +260,6 @@ header img {
 		}
 
 
-
 .photo:hover
 		{
 		filter: grayscale(80%);
@@ -238,16 +267,6 @@ header img {
 		opacity: 0.5;
 		}
 
-
-.project-top-border 
-		{
-		background-color: #a61e3a;
-		}
-
-.project-top-border h2 
-		{
-		padding: 20px 0px 20px 0px;
-		}
 
 .project-bottom-border 
 		{
@@ -276,6 +295,15 @@ header img {
 		margin: 5px 0px 5px 0px;
 		}
 
+#single-column-contact
+		{
+		width: 80%;
+		margin-right: auto;
+		margin-left: auto;
+		text-align: center;
+		padding-bottom: 30px;
+		}
+
 #web 	{
 		padding: 18px 0px 5px 0px;
 		}
@@ -299,7 +327,7 @@ header img {
 #contact a:hover {opacity: .8;}
 
 
-/* Contact form fields */
+/* Contact form fields 
 
 input, textarea {
 			    width: 100%;
@@ -329,8 +357,33 @@ input[type=submit] {
 input[type=submit]:hover
 				{
    				background-color: #473f40;
+				}  Contact form fields folded
+*/
+
+#contact-bottom {
+			    background-color: #a61e3a;
+			    color: #ffffff;
+			    font-size: 15px;
+			    font-weight: normal;
+			    padding: 7px 0px;
+			    width: 150px;
+			    margin-left: auto;
+			    margin-right: auto;
+			    margin-top: 25px;
+			    border: none;
+			    border-radius: 2px;
+			    cursor: pointer;
+			    text-align: center;
 				}
 
+#contact-bottom :hover
+				{
+   				background-color: #473f40;
+				}
+#contact-bottom a
+				{
+   				color: #ffffff;
+				}
 
 
 
