@@ -120,7 +120,7 @@
 	    
 	    {
 		
-		.col-3 {width: 25%;}
+		.col-3 {width: 30%;}
 		.col-4 {width: 33.3%;}
 		#about .col-4 {width: 100%;}
 
@@ -164,8 +164,8 @@
 		#about .row {margin: 0px 35px 0px 40px;}
 
 		.left-skills   {padding: 0px 0px 20px 40px;}
-		.middle-skills {padding: 0px 5px 20px 20px;}
-		.right-skills  {padding: 0px 0px 20px 40px;}
+		.middle-skills {padding: 0px 0px 20px 0px;}
+		.right-skills  {padding: 0px 0px 20px 0px;}
 
 		.photo 		{width: 50%;}
 
@@ -267,8 +267,11 @@
 		header img {width: 80%;}
 
 	    #nav li a {width: 25%; font-size: 10px; margin: 0px; padding: 0px 6px;}
-	    #projects h2 {font-size: 14px;}
-		.photo 	{width: 100%;}
+	    #projects h2 {font-size: 14px; font-weight: 300;}
+	    h2 {font-weight: 300;}
+
+	    #single-column-contact {width: 100%;}
+
 		.prev {left: 10px;}
 		.next {right: 10px;}
 		}
