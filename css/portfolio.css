@@ -214,13 +214,13 @@ header img {
 
 /* ABOUT */
 
-#about 	
+#about-section 	
 		{		
 		background-color: #e1dfd9;
 		}
 
 
-#about h2 
+#about-section h2 
 		{
 		color: #a61e3a;
 		}
@@ -229,12 +229,12 @@ header img {
 
 /* SKILLS */
 
-#skills {
+#skills-section {
 		background-color: #473f40;
 		}
 
 
-#skills li 
+#skills-section li 
 		{
 		color: #ffffff;
 		font-size: 14px;
@@ -247,9 +247,9 @@ header img {
 
 /* PROJECTS */
 
-#projects {background-color: #a61e3a;}
-#projects ul {list-style: none; background-color: #ce183e;}
-#projects h2 {font-size: 23px; padding: 10px 0px 10px 0px;}
+#project-section {background-color: #a61e3a;}
+#project-section ul {list-style: none; background-color: #ce183e;}
+#project-section h2 {font-size: 23px; padding: 10px 0px 10px 0px;}
 
 .photo, .button 
 		{	
@@ -281,16 +281,16 @@ header img {
 /* CONTACT */
 
 
-#contact{
+#contact-section {
 		background-color: #e1dfd9;
 		}
 
-#contact h2  
+#contact-section h2  
 		{
 		color: #a61e3a;
 		}
 
-#contact h4 
+#contact-section h4 
 		{
 		margin: 5px 0px 5px 0px;
 		}
@@ -317,14 +317,13 @@ header img {
 
 
 
+#contact-section ul {list-style: none;}
+#contact-section ul li {display: inline-block;}
+#contact-section a {color:#473f40; text-decoration: none;}
+#contact-section a .fa {font-size: 26px; padding-right: 8px;}
 
-#contact ul {list-style: none;}
-#contact ul li {display: inline-block;}
-#contact a {color:#473f40; text-decoration: none;}
-#contact a .fa {font-size: 26px; padding-right: 8px;}
 
-
-#contact a:hover {opacity: .8;}
+#contact-section a:hover {opacity: .8;}
 
 
 /* Contact form fields 
