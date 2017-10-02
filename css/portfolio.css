@@ -447,7 +447,6 @@ footer p 	{
 		    margin: auto;
 		    padding: 40px;
 		    width: 80%;
-		    max-width: 900px;
 			}
 
 
@@ -471,6 +470,12 @@ footer p 	{
 
 
 .modal-content p a {color:#a61e3a; text-decoration: none;}
+
+.modal_multi {
+		max-width: 1000px;
+		margin-left: auto;
+		margin-right: auto;
+		}
 
 
 /* CLOSE BUTTON  */
